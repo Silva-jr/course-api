@@ -8,6 +8,7 @@ const password = require('password-hash-and-salt');
 console.log("Populating the MongoDB database with some sample data ...");
 
 const MongoClient = require('mongoose').MongoClient;
+
 var ObjectId = require('mongoose').ObjectID;
 
 
